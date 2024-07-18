@@ -1,0 +1,68 @@
+#to check type of a character in string
+#isalnum
+
+string = "namratha"
+character = "$@"
+number = "16"
+print(string.isalnum())
+print(character.isalnum())
+print(number.isalnum())
+
+
+#isalpha
+string = "namratha"
+character = "$@"
+number = "16"
+print(string.isalpha())
+print(character.isalpha())
+print(number.isalpha())
+
+#isdigit
+string = "namratha"
+character = "$@"
+number = "16"
+print(string.isdigit())
+print(character.isdigit())
+print(number.isdigit())
+
+
+#islower
+string = "hi im namratha"
+character = "Hello How are You"
+number = "$#!"
+print(string.islower())
+print(character.islower())
+print(number.islower())
+
+
+
+#isupper
+
+
+string = "hi im namratha"
+character = " HOW ARE YOU"
+number = "$#!"
+print(string.isupper())
+print(character.isupper())
+print(number.isupper())
+
+
+
+#istitle
+
+
+string = "hi im namratha"
+character = " How Are You"
+number = "$#!"
+print(string.istitle())
+print(character.istitle())
+print(number.istitle())
+
+#isspace
+
+string = "hi im namratha"
+character = " hihihihihihi"
+number = "$#!"
+print(string.isspace())
+print(character.isspace())
+print(number.isspace())
